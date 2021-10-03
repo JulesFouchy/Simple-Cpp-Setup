@@ -13,9 +13,10 @@
 	"settings": {},
 
 	// Add the IDs of extensions you want installed when the container is created.
-	"extensions": [        
+	"extensions": [
         "ms-vscode.cpptools",                 // Basic C++ extension
         "jbenden.c-cpp-flylint",              // Enables various linters that can detect errors in your code
+		"notskm.clang-tidy",                  // Enable linting with clang-tidy
         "xaver.clang-format",                 // Enables clang-format to automatically format your code
         "twxs.cmake",                         // Intellisense for CMake
         "ms-vscode.cmake-tools",              // Simply project compilation and debugging
