@@ -23,3 +23,10 @@ set_property(TARGET ${PROJECT_NAME} PROPERTY CXX_STANDARD ${CXX_STANDARD})
 include_directories(
     src
 )
+
+# Enable many good warnings
+if(MSVC)
+  target_compile_options(${PROJECT_NAME} PRIVATE /WX /W4)
+else()
+  target_compile_options(${PROJECT_NAME} PRIVATE -Werror -Wall -Wextra -Wpedantic -pedantic-errors -Wconversion -Wsign-conversion)
+endif()
