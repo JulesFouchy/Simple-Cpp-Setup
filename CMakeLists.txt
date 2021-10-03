@@ -26,7 +26,7 @@ include_directories(
 
 # Enable many good warnings
 if(MSVC)
-  target_compile_options(${PROJECT_NAME} PRIVATE /WX /W4)
+    target_compile_options(${PROJECT_NAME} PRIVATE /WX /W4)
 else()
-  target_compile_options(${PROJECT_NAME} PRIVATE -Werror -Wall -Wextra -Wpedantic -pedantic-errors -Wconversion -Wsign-conversion)
+    target_compile_options(${PROJECT_NAME} PRIVATE -Werror -Wall -Wextra -Wpedantic -pedantic-errors -Wconversion -Wsign-conversion)
 endif()
