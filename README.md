@@ -8,7 +8,7 @@ If you install [ms-vscode-remote.remote-containers](https://marketplace.visualst
 
 (Unfortunately, if you want to do GUI applications they don't work well from within a container and you might have to do a proper setup on your own desktop instead. But for simple command-line applications this works amazingly well !)
 
-NB : the container might take a while to build the first time.
+NB: the container might take a while to build the first time.
 
 ## If you don't use the Dev Container
 
