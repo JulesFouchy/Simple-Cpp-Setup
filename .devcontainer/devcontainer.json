@@ -16,15 +16,16 @@
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-        "ms-vscode.cpptools",                 // Basic C++ extension
-        "jbenden.c-cpp-flylint",              // Enables various linters that can detect errors in your code
-		"notskm.clang-tidy",                  // Enable linting with clang-tidy
-        "xaver.clang-format",                 // Enables clang-format to automatically format your code
-        "twxs.cmake",                         // Intellisense for CMake
-        "ms-vscode.cmake-tools",              // Simply project compilation and debugging
-        "cschlosser.doxdocgen",               // Generate doxygen comments
-		"jeff-hykin.better-cpp-syntax",       // Improved C++ syntax highlighting
-        "coenraads.bracket-pair-colorizer-2"  // Color matching pairs of brackets ; makes your code more readable
+        "ms-vscode.cpptools",                  // Basic C++ extension
+        "jbenden.c-cpp-flylint",               // Enables various linters that can detect errors in your code
+		"notskm.clang-tidy",                   // Enable linting with clang-tidy
+        "xaver.clang-format",                  // Enables clang-format to automatically format your code
+        "twxs.cmake",                          // Intellisense for CMake
+        "ms-vscode.cmake-tools",               // Simple project compilation and debugging
+        "cschlosser.doxdocgen",                // Generate doxygen comments
+		"jeff-hykin.better-cpp-syntax",        // Improved C++ syntax highlighting
+        "coenraads.bracket-pair-colorizer-2",  // Color matching pairs of brackets ; makes your code more readable
+        "ms-vsliveshare.vsliveshare"           // Code remotely on someone else's computer. Is it amazing to work together!
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
