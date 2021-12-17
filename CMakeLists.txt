@@ -12,7 +12,8 @@ else()
 endif()
 
 # Set the folder where the executable is created
-set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/bin/${CMAKE_BUILD_TYPE})
+set_target_properties(${PROJECT_NAME} PROPERTIES
+    RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin/${CMAKE_BUILD_TYPE})
 
 # Add all the files
 file(GLOB_RECURSE MY_SOURCES CONFIGURE_DEPENDS src/*)
