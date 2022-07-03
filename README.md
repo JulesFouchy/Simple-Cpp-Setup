@@ -43,7 +43,7 @@ Then, setup the extensions in VS Code by following the lessons on [formatters](h
 
 ## Creating a repository
 
-Make a copy of this repository on your own Github account by using `Use this template`.
+Make a copy of this repository on your own GitHub account by using `Use this template`.
 ![](./docs/use-this-template.png)
 
 > **NB:** If you are not using GitHub but GitLab or anything else, just download the code (using the `Code` dropdown next to `Use this template`), then create a repo on your own, and commit the downloaded code to that repo. `Use this template` is just a convenient shortcut, it is not mandatory.
@@ -52,7 +52,7 @@ Make a copy of this repository on your own Github account by using `Use this tem
 
 Open a terminal in the folder where you want to download this repository, and run
 ```bash
-git clone [url to your repository]
+git clone [url to the repository you just created]
 ```
 
 For example in my case this would be:
@@ -62,17 +62,31 @@ git clone https://github.com/JulesFouchy/Simple-Cpp-Setup
 
 ## Running the code
 
-Open the folder in Visual Studio Code. You should then see something like
+Open the folder in Visual Studio Code. You should then see something like:
 
 ![](./docs/open-project.png)
 
-In the bottom section, click the `Run` button:
+In the bottom section, click the `Run` (triangle) button:
 
 ![](./docs/run.png)
 
-The first time, it will ask you which compiler you want to use. If you installed everything correctly, you should have at least one in the list. Select any of them.
+> 💡 If the `Run` button isn't there, it is probably because you did not open the right folder. Maybe you opened the parent of the folder you meant to open? Check that in the folder view (framed in red in the previous picture) you have a `CMakeLists.txt` at the root.
+If this wasn't the problem, then maybe you didn't install the C++ extensions, or you just need to close and re-open VS Code for the changes to take effect.
 
-Your program should then compile, run, and output "Hello World!":
+The first time, it will ask you which compiler you want to use. You might need to click `Scan for kits`. Then, if you installed everything correctly, you should have at least one in the list. Select any of them.
+
+Your program should then compile, run, and output "Hello World!"
 
 ![](./docs/hello-world.png)
 
+🎉 **Congrats, you are now ready to start coding!**
+
+## Useful tips
+
+### Debugger
+
+https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/debugger
+
+### Learn shortcuts of VS Code
+
+https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/ide/#quick-actions
