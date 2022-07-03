@@ -78,7 +78,9 @@ In the bottom section, click the `Run` (triangle) button:
 > 💡 If the `Run` button isn't there, it is probably because you did not open the right folder. Maybe you opened the parent of the folder containing the project? Check that in the folder view (framed in red in the previous picture) you have a `CMakeLists.txt` at the root.
 If this wasn't the problem, then maybe you didn't install the C++ extensions, or you just need to close and re-open VS Code for the changes to take effect.
 
-The first time, it will ask you which compiler you want to use. You might need to click `Scan for kits`. Then, if you installed everything correctly, you should have at least one in the list. Select any of them.
+The first time, it will ask you which compiler you want to use. You might need to click `Scan for kits`. Then, if you installed everything correctly, you should have at least one in the list. Select one that talks about 64 bit architecture.
+
+![](./docs/select-a-kit.png)
 
 Your program should then compile, run, and output "Hello World!"
 
