@@ -5,7 +5,14 @@ It contains everything you need to get started with programming in C++.
 
 If your machine is already setup and can compile C++ code, you can jump to [Creating a repository](#creating-a-repository).
 
-TODO TOC
+- [Installing the tools](#installing-the-tools)
+    * [IDE](#ide)
+    * [Compiler](#compiler)
+    * [CMake](#cmake)
+    * [LLVM (Optional, but strongly recommended)](#llvm--optional--but-strongly-recommended-)
+- [Creating a repository](#creating-a-repository)
+- [Downloading the code on your computer](#downloading-the-code-on-your-computer)
+- [Running the code](#running-the-code)
 
 ## Installing the tools
 
