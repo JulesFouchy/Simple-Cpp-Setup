@@ -55,7 +55,7 @@ Make a copy of this repository on your own GitHub account by using `Use this tem
 
 ## Downloading the code on your computer
 
-Open a terminal in the folder where you want to download this repository, and run
+Open a terminal in the folder where you want to download this repository, and run:
 ```bash
 git clone [url to the repository you just created]
 ```
@@ -75,7 +75,7 @@ In the bottom section, click the `Run` (triangle) button:
 
 ![](./docs/run.png)
 
-> 💡 If the `Run` button isn't there, it is probably because you did not open the right folder. Maybe you opened the parent of the folder you meant to open? Check that in the folder view (framed in red in the previous picture) you have a `CMakeLists.txt` at the root.
+> 💡 If the `Run` button isn't there, it is probably because you did not open the right folder. Maybe you opened the parent of the folder containing the project? Check that in the folder view (framed in red in the previous picture) you have a `CMakeLists.txt` at the root.
 If this wasn't the problem, then maybe you didn't install the C++ extensions, or you just need to close and re-open VS Code for the changes to take effect.
 
 The first time, it will ask you which compiler you want to use. You might need to click `Scan for kits`. Then, if you installed everything correctly, you should have at least one in the list. Select any of them.
