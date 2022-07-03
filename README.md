@@ -1,7 +1,7 @@
 # Simple-Cpp-Setup
 
-Welcome to this simple C++ template project!<br/>
-It contains everything you need to get started with programming in C++.
+🎉 Welcome to this simple C++ template project!<br/>
+👩‍💻 It contains everything you need to get started with programming in C++.
 
 If your machine is already setup and can compile C++ code, you can jump to [Creating a repository](#creating-a-repository).
 
