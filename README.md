@@ -6,13 +6,18 @@
 If your machine is already setup and can compile C++ code, you can jump to [Creating a repository](#creating-a-repository).
 
 - [Installing the tools](#installing-the-tools)
-    * [IDE](#ide)
-    * [Compiler](#compiler)
-    * [CMake](#cmake)
-    * [LLVM (Optional, but strongly recommended)](#llvm--optional--but-strongly-recommended-)
+    + [IDE](#ide)
+    + [Compiler](#compiler)
+    + [CMake](#cmake)
+    + [LLVM (Optional, but strongly recommended)](#llvm--optional--but-strongly-recommended-)
 - [Creating a repository](#creating-a-repository)
 - [Downloading the code on your computer](#downloading-the-code-on-your-computer)
 - [Running the code](#running-the-code)
+- [Writing code](#writing-code)
+- [Useful tips](#useful-tips)
+    + [Debugger](#debugger)
+    + [Learn the features of VS Code](#learn-the-features-of-vs-code)
+
 
 ## Installing the tools
 
@@ -81,12 +86,20 @@ Your program should then compile, run, and output "Hello World!"
 
 🎉 **Congrats, you are now ready to start coding!**
 
+## Writing code
+
+Put all your C++ files (*.cpp* and *.hpp*) in the `src` folder. This is where the `CMakeLists.txt` is configured to look for them.
+
 ## Useful tips
 
 ### Debugger
 
-https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/debugger
+By using the `Debug` button you can run your code in debug mode. This will show you where problems are coming from if your code crashes, and also allows you to inspect the execution of your program line-by-line and see the values of all the variables.
 
-### Learn shortcuts of VS Code
+![](./docs/debug.png)
 
-https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/ide/#quick-actions
+[Read this lesson to learn how to use a debugger.](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/debugger)
+
+### Learn the features of VS Code
+
+[Check out this lesson for an overview of the most important things that VS Code can do automatically for you.](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/ide/#quick-actions)
