@@ -31,7 +31,7 @@ Optionally you can also install [ms-vsliveshare.vsliveshare](https://marketplace
 
 ### Compiler
 
-Follow the instructions from https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/install-a-compiler/.
+[Follow the instructions from this lesson.](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/install-a-compiler/)
 
 ### CMake
 
