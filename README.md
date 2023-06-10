@@ -53,6 +53,8 @@ Make a copy of this repository on your own GitHub account by using `Use this tem
 
 > **NB:** If you are not using GitHub but GitLab or anything else, just download the code (using the `Code` dropdown next to `Use this template`), then create a repo on your own, and commit the downloaded code to that repo. `Use this template` is just a convenient shortcut, it is not mandatory.
 
+**NB:** you might also want to change or remove the LICENSE file. Your project does not need to use the same license as the one we use for this template.
+
 ## Downloading the code on your computer
 
 Open a terminal in the folder where you want to download this repository, and run:
