@@ -1,12 +1,12 @@
-### -----------------------------------------------------------------------
-###
-### If you want to learn CMake:
-### https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/cmake/
-###
-### If you want to see how to add libraries to your project:
-### https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/use-libraries/#how-to
-###
-### -----------------------------------------------------------------------
+# ## -----------------------------------------------------------------------
+# ##
+# ## If you want to learn CMake:
+# ## https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/cmake/
+# ##
+# ## If you want to see how to add libraries to your project:
+# ## https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/use-libraries/#how-to
+# ##
+# ## -----------------------------------------------------------------------
 
 cmake_minimum_required(VERSION 3.8)
 
@@ -21,10 +21,10 @@ target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_17)
 # /WX and -Werror enable "warnings as errors": This means that your code won't compile if you have any warning.
 # This forces you to take warnings into account, which is a good practice because warnings are here for a reason and can save you from a lot of bugs!
 # If this is too strict for you, you can remove /WX and -Werror.
-if (MSVC)
+if(MSVC)
     target_compile_options(${PROJECT_NAME} PRIVATE /WX /W3)
 else()
-    target_compile_options(${PROJECT_NAME} PRIVATE -Werror -Wall -Wextra -Wpedantic -pedantic-errors)
+    target_compile_options(${PROJECT_NAME} PRIVATE -Werror -Wall -Wextra -Wpedantic -pedantic-errors -Wimplicit-fallthrough)
 endif()
 
 # Set the folder where the executable is created
