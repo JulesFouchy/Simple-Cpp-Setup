@@ -6,17 +6,17 @@
 If your machine is already setup and can compile C++ code, you can jump to [Creating a repository](#creating-a-repository).
 
 - [Installing the tools](#installing-the-tools)
-    + [IDE](#ide)
-    + [Compiler](#compiler)
-    + [CMake](#cmake)
-    + [LLVM (Optional, but strongly recommended)](#llvm--optional--but-strongly-recommended-)
+  - [IDE](#ide)
+  - [Compiler](#compiler)
+  - [CMake](#cmake)
+  - [LLVM (Optional, but strongly recommended)](#llvm-optional-but-strongly-recommended)
 - [Creating a repository](#creating-a-repository)
 - [Downloading the code on your computer](#downloading-the-code-on-your-computer)
 - [Running the code](#running-the-code)
 - [Writing code](#writing-code)
 - [Useful tips](#useful-tips)
-    + [Debugger](#debugger)
-    + [Learn the features of VS Code](#learn-the-features-of-vs-code)
+  - [Debugger](#debugger)
+  - [Learn the features of VS Code](#learn-the-features-of-vs-code)
 
 
 ## Installing the tools
@@ -49,7 +49,7 @@ Then, setup the extensions in VS Code by following the lessons on [formatters](h
 ## Creating a repository
 
 Make a copy of this repository on your own GitHub account by using `Use this template`.
-![](./docs/use-this-template.png)
+![](./readme-images/use-this-template.png)
 
 > **NB:** If you are not using GitHub but GitLab or anything else, just download the code (using the `Code` dropdown next to `Use this template`), then create a repo on your own, and commit the downloaded code to that repo. `Use this template` is just a convenient shortcut, it is not mandatory.
 
@@ -71,22 +71,22 @@ git clone https://github.com/JulesFouchy/Simple-Cpp-Setup
 
 Open the folder in Visual Studio Code. You should then see something like:
 
-![](./docs/open-project.png)
+![](./readme-images/open-project.png)
 
 In the bottom section, click the `Run` (triangle) button:
 
-![](./docs/run.png)
+![](./readme-images/run.png)
 
 > 💡 If the `Run` button isn't there, it is probably because you did not open the right folder. Maybe you opened the parent of the folder containing the project? Check that in the folder view (framed in red in the previous picture) you have a `CMakeLists.txt` at the root.
 If this wasn't the problem, then maybe you didn't install the C++ extensions, or you just need to close and re-open VS Code for the changes to take effect.
 
 The first time, it will ask you which compiler you want to use. You might need to click `Scan for kits`. Then, if you installed everything correctly, you should have at least one in the list. Select one that talks about 64 bit architecture.
 
-![](./docs/select-a-kit.png)
+![](./readme-images/select-a-kit.png)
 
 Your program should then compile, run, and output "Hello World!"
 
-![](./docs/hello-world.png)
+![](./readme-images/hello-world.png)
 
 🎉 **Congrats, you are now ready to start coding!**
 
@@ -100,7 +100,7 @@ Put all your C++ files (*.cpp* and *.hpp*) in the `src` folder. This is where th
 
 By using the `Debug` button you can run your code in debug mode. This will show you where problems are coming from if your code crashes, and also allows you to inspect the execution of your program line-by-line and see the values of all the variables.
 
-![](./docs/debug.png)
+![](./readme-images/debug.png)
 
 [Read this lesson to learn how to use a debugger.](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/debugger)
 
