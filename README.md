@@ -3,13 +3,11 @@
 🎉 Welcome to this simple C++ template project!<br/>
 👩‍💻 It contains everything you need to get started with programming in C++.
 
-If your machine is already setup and can compile C++ code, you can jump to [Creating a repository](#creating-a-repository).
-
 - [Installing the tools](#installing-the-tools)
   - [IDE](#ide)
   - [Compiler](#compiler)
   - [CMake](#cmake)
-  - [LLVM (Optional, but strongly recommended)](#llvm-optional-but-strongly-recommended)
+  - [Ninja](#ninja)
 - [Creating a repository](#creating-a-repository)
 - [Downloading the code on your computer](#downloading-the-code-on-your-computer)
 - [Running the code](#running-the-code)
@@ -17,17 +15,20 @@ If your machine is already setup and can compile C++ code, you can jump to [Crea
 - [Useful tips](#useful-tips)
   - [Debugger](#debugger)
   - [Learn the features of VS Code](#learn-the-features-of-vs-code)
+  - [Live Share](#live-share)
 
 
 ## Installing the tools
 
 ### IDE
 
-We recommend using Visual Studio Code as your IDE (Integrated Development Environment). [You can download it from here.](https://code.visualstudio.com/)
+We recommend using Visual Studio Code (VSCode) as your IDE (Integrated Development Environment). [You can download it from here.](https://code.visualstudio.com/)
 
-Then you will need the C++ extensions: [ms-vscode.cpptools-extension-pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack).
+Then you can use this profile to setup your VSCode automatically with all the recommended extensions and settings: https://vscode.dev/profile/github/ae2374d63be31bf2199ef22d94a355b6
 
-Optionally you can also install [ms-vsliveshare.vsliveshare](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare): It will allow you to work remotely with your teammates in one single editor, just like a GoogleDoc. It is amazing to work together on projects!
+![](./readme-images/install-profile-1.png)
+![](./readme-images/install-profile-2.png)
+![](./readme-images/install-profile-3.png)
 
 ### Compiler
 
@@ -37,19 +38,16 @@ Optionally you can also install [ms-vsliveshare.vsliveshare](https://marketplace
 
 Install CMake from https://cmake.org/download/ (or from your favorite package manager).
 
-### LLVM (Optional, but strongly recommended)
+### Ninja
 
-This will install tools that will format and lint your code (a.k.a. give you advice and show you where potential bugs are).
-
-Install it from https://github.com/llvm/llvm-project/releases/latest. Choose the right one for your platform (e.g. the one finishing with *-win64.exe* if you are on Windows). On Linux, you can also install it from the command line.
-
-Then, setup the extensions in VS Code by following the lessons on [formatters](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/formatting-tool/) and [static analysers](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/static-analysers/).
-
+Install it by following these instructions: https://github.com/ninja-build/ninja/wiki/Pre-built-Ninja-packages.
 
 ## Creating a repository
 
 Make a copy of this repository on your own GitHub account by using `Use this template`.
 ![](./readme-images/use-this-template.png)
+
+> **NB:** You might want to remove or change the *LICENSE.txt* file. This template is under the CC0 license, but you might not necessarily want to apply the same license to your project.
 
 > **NB:** If you are not using GitHub but GitLab or anything else, just download the code (using the `Code` dropdown next to `Use this template`), then create a repo on your own, and commit the downloaded code to that repo. `Use this template` is just a convenient shortcut, it is not mandatory.
 
@@ -107,3 +105,8 @@ By using the `Debug` button you can run your code in debug mode. This will show 
 ### Learn the features of VS Code
 
 [Check out this lesson for an overview of the most important things that VS Code can do automatically for you.](https://julesfouchy.github.io/Learn--Clean-Code-With-Cpp/lessons/ide/#quick-actions)
+
+### Live Share
+
+Among the extensions, one you might be intereseted in is Live Share: it allows you to. It will allow you to work remotely with your teammates in one single editor, just like a GoogleDoc. It is amazing to work together on projects!
+Use <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd> and type "Live Share".
