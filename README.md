@@ -24,7 +24,7 @@
 
 We recommend using Visual Studio Code (VSCode) as your IDE (Integrated Development Environment). [You can download it from here.](https://code.visualstudio.com/)
 
-Then you can use this profile to setup your VSCode automatically with all the recommended extensions and settings: https://vscode.dev/profile/github/ae2374d63be31bf2199ef22d94a355b6
+Then you can use this profile to setup your VSCode automatically with all the recommended extensions and settings: https://vscode.dev/profile/github/1d8b14337ffe82e81f50aaf36eab06cf
 
 ![](./readme-images/install-profile-1.png)
 ![](./readme-images/install-profile-2.png)
@@ -78,7 +78,7 @@ In the bottom section, click the `Run` (triangle) button:
 > 💡 If the `Run` button isn't there, it is probably because you did not open the right folder. Maybe you opened the parent of the folder containing the project? Check that in the folder view (framed in red in the previous picture) you have a `CMakeLists.txt` at the root.
 If this wasn't the problem, then maybe you didn't install the C++ extensions, or you just need to close and re-open VS Code for the changes to take effect.
 
-The first time, it will ask you which compiler you want to use. You might need to click `Scan for kits`. Then, if you installed everything correctly, you should have at least one in the list. Select one that talks about 64 bit architecture.
+The first time, it will ask you which compiler you want to use. You might need to click `Scan for kits`. If you installed everything correctly, you should have at least one compiler in the list. Select one that talks about 64 bit architecture.
 
 ![](./readme-images/select-a-kit.png)
 
@@ -108,5 +108,6 @@ By using the `Debug` button you can run your code in debug mode. This will show 
 
 ### Live Share
 
-Among the extensions, one you might be intereseted in is Live Share: it allows you to. It will allow you to work remotely with your teammates in one single editor, just like a GoogleDoc. It is amazing to work together on projects!
-Use <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd> and type "Live Share".
+One of the extensions installed with the profile we provided is *Live Share*: it allows you to work remotely with your teammates in one single editor, just like a GoogleDoc. It is amazing to work together on projects! <br/>
+Use <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd> and type "Live Share" to start a collaborative session.
+![](./readme-images/live-share.png)
