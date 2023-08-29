@@ -24,7 +24,7 @@
 
 We recommend using Visual Studio Code (VSCode) as your IDE (Integrated Development Environment). [You can download it from here.](https://code.visualstudio.com/)
 
-Then you can use this profile to setup your VSCode automatically with all the recommended extensions and settings: https://vscode.dev/profile/github/adf29055660285c61a0cb441af65a883
+Then you can use this profile to setup your VSCode automatically with all the recommended extensions and settings: https://vscode.dev/profile/github/62cdc1f5620231712084bffdec173115
 
 ![](./readme-images/install-profile-1.png)
 ![](./readme-images/install-profile-2.png)
